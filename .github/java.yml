@@ -2,7 +2,9 @@
 
 name: Java Build
 
-on: push
+on:
+  push
+  commit
 
 jobs:
   build:
